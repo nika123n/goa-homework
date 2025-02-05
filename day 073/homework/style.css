@@ -1,0 +1,13 @@
+/* 1)შექმენით კვადრატული ბლოკი (100px x 100px), რომელსაც წითელი ფერი ექნება.გამოიყენეთ transform: translate()-ის საშუალება, რომ ბლოკი გადაადგილდეს 50px მარჯვნივ და 100px ქვევით.შექმენით სტილი, რომელიც მოძრაობას გამოიყენებს მხოლოდ მაშინ, როცა ბლოკზე მაუსი გადავა (hover). */
+
+div{
+    width: 100px;
+    height: 100px;
+
+    background-color: red;
+}
+
+:hover div{
+    transform: translateX(50px);
+    transform: translateY(100px);
+}
