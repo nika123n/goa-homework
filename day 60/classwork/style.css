@@ -1,0 +1,30 @@
+/*  შექმენით div-ი, რომლის ზომაც იქნება 100x100 პიქსელი.
+
+დაუმატეთ ამ დივს border-ი, რომელიც div-ის თითოეულ მხარეს იქნება განსხვავებული ზომის, ფორმის და სტილის.
+div-ს გაუწერე უკანა ფონის ფერი და ჩასვი მასში პარაგრაფი, სადაც ეწერება "Hello Box Model".
+padding-ის მეშვეობით შეეცადე div-ის შუაში გადაადგილო ეს პარაგრაფი.
+
+საბოლოოდ, პარაგრაფსაც გაუწერე padding-ი და უკანა ფონის ფერი. */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#div{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: blue;
+
+}
+#p{
+    color: white;
+    padding-left: 80px;
+    padding-top: 140px;
+}

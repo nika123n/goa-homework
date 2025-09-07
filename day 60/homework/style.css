@@ -1,0 +1,26 @@
+/* 1) შექმენით div-ი 300x300-ზე მიეცით მას უკანა ფონის ფერი. მის შიგნით ჩასვით კიდევ 5 div-ი 50x50-ზე, გაუწერეთ მათაც უკანა ფონის ფერი და მოათავსედ ეს div-ები მოშველი ელემენტის ზუსტად შუაში, ისე რომ ისინი იყვნენ ჰორიზონტალურად განლაგებულნი. */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.parrent-div{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#child-div{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
