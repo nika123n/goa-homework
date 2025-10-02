@@ -1,0 +1,60 @@
+                         /*Delete margin and padding*/
+*{
+    margin: 0;
+    padding: 0;
+}         
+
+                        /**************body**********/
+body{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+                    
+                       /*************main**********/
+#parent-div{
+    height: 600px;
+    width: 350px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#img{
+    width: 100px;
+    border-radius: 50%;
+}
+#h2{
+    color: white;
+}
+#h5{
+    color: greenyellow;
+}
+p{
+    color: wheat;
+}
+#child-div{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+button{
+    width: 250px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: rgb(112, 112, 112);
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
